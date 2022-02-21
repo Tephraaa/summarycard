@@ -1,0 +1,127 @@
+/* Html basics  */
+
+body {
+    background-image: url('../../order-summary-component-main/images/pattern-background-desktop.svg');
+    background-repeat: repeat-x;
+}
+
+h1 {
+    padding: 40px 0px 0px 0px;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+/* Card */
+
+.container h1 {
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 28px;
+    margin: 0px 0px 15px 0px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card {
+    font-family: 'Red Hat Display';
+    text-align: center;
+    max-width: 400px;
+    margin: 0px auto;
+    margin-top: 2%;
+    background-color: white;
+    padding: 0px 0px 20px 0px;
+    border-radius: 20px 20px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.158);
+}
+
+.card-details {
+    max-width: 330px;
+    margin: 0px auto;
+}
+
+.plan {
+    max-width: 330px;
+    height: 40px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 0px 0px 30px 0px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.plan-p {
+    float: left;
+    margin: 0px 0px 0px 20px;
+}
+
+.music-icon {
+    max-width: 40px;
+    float: left;
+    margin: 0px 0px;
+}
+
+.change-btn {
+    margin: 4px 0px 0px 40px;
+    color: hsl(245, 75%, 52%);
+    border: none;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.change-btn:hover {
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+.payments-btn:hover {
+    background-color: hsl(245, 63%, 62%);
+    color: hsl(225, 100%, 98%);
+    transition: 0.3s;
+}
+
+.payments-btn {
+    width: 330px;
+    height: 45px;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    text-transform: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: normal;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.26);
+
+}
+
+.cancel-btn {
+    width: 330px;
+    height: 45px;
+    color: hsl(224, 23%, 55%);
+    text-transform: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: normal;
+}
+
+.annual {
+    font-weight: bold;
+    color: black;
+}
+
+/* Footer */
+
+.attribution {
+    margin: 30px 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
